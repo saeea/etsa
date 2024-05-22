@@ -1,0 +1,50 @@
+body {
+ font-size: calc(15px + 0.5vw);
+ }
+a {
+ text-decoration: none;
+ color: inherit;
+ }
+.cirhidden {
+ font-family: "Flow Circular";
+ }
+.carlito {
+ font-family: "Carlito";
+ }
+.ysabeau {
+ font-family: "Ysabeau SC";
+ }
+.righter {
+ float: right;
+ }
+.texter {
+ padding: 0.1em;
+ }
+.ogurback {
+ background-image: linear-gradient(0deg, #44aa66, #66bb55);
+ }
+.seiaback {
+ background-image: linear-gradient(0deg, #5599aa, #44bbaa);
+ }
+.a-padding {
+ padding: calc(10px + 0.5vw);
+ }
+.b-padding {
+ padding: calc(20px + 1vw);
+ }
+.a-panel {
+ width: calc(80px + 4vw);
+ display: table;
+ }
+.head {
+ font-size: 1.5em;
+ font-weight: 700;
+ }
+.gutt {
+ white-space: nowrap;
+ }
+.pickle {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-between;
