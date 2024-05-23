@@ -5,6 +5,9 @@ a {
  text-decoration: none;
  color: inherit;
  }
+p {
+ margin: 0.5em 0em;
+ }
 .cirhidden {
  font-family: "Flow Circular";
  }
@@ -34,7 +37,21 @@ a {
  }
 .a-panel {
  width: calc(80px + 4vw);
- display: table;
+ }
+.w-panel {
+ width: 80%;
+ }
+.a-wrap {
+ width: calc(200px + 10vw);
+ margin: 0vw calc(5px + 0.5vw) 0vw 0vw;
+ }
+.b-wrap {
+ width: calc(325px + 17vw);
+ }
+.z-wrap {
+ width: 100%;
+ display: flex;
+ flex-direction: row;
  }
 .head {
  font-size: 1.5em;
@@ -48,3 +65,4 @@ a {
  flex-wrap: wrap;
  flex-direction: row;
  justify-content: space-between;
+ }
