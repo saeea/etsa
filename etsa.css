@@ -2,6 +2,7 @@ body {
  font-size: calc(15px + 0.5vw);
  background-color: black;
  color: white;
+ margin: 0px 0px calc(50px+5vw) 0px;
  }
 a {
  text-decoration: none;
@@ -40,17 +41,32 @@ p {
 .seiaback {
  background-image: linear-gradient(0deg, #5599aa, #44bbaa);
  }
+.seiablack {
+ background-image: linear-gradient(0deg, #115566, #007766);
+ }
 .a-padding {
  padding: calc(10px + 0.5vw);
  }
 .b-padding {
  padding: calc(20px + 1vw);
  }
+.c-padding {
+ padding: calc(3px + 0.1vw);
+ }
 .a-margin {
  margin: calc(5px + 0.2vw);
  }
 .b-margin {
  margin: calc(10px + 0.5vw);
+ }
+.c-margin {
+ margin: calc(7px + 0.3vw) calc(3px + 0.1vw) calc(3px + 0.1vw) calc(3px + 0.1vw);
+ }
+.w-margin {
+ margin: 0px calc(9px + 0.5vw);
+ }
+.h-margin {
+ margin: calc(9px + 0.5vw) 0px;
  }
 .a-panel {
  width: calc(80px + 4vw);
@@ -66,8 +82,14 @@ p {
  margin: 0vw calc(2px + 0.15vw) calc(5px + 0.5vw) 0vw;
  }
 .b-wrap {
- width: calc(105px + 35vw);
+ width: calc(115px + 36vw);
  margin: 0vw calc(2px + 0.15vw) calc(5px + 0.5vw) 0vw;
+ }
+.h-wrap {
+ height: 25vh;
+ }
+.i-wrap {
+ height: calc(100px + 15vh);
  }
 .p-wrap {
  width: calc(250px + 10vw);
@@ -107,6 +129,9 @@ p {
  font-size: 1.5em;
  font-weight: 700;
  }
+.icon {
+ height: 1em;
+ }
 .tashi {
  text-align: center;
  }
@@ -125,6 +150,14 @@ p {
  flex-wrap: wrap;
  flex-direction: row;
  justify-content: space-between;
+ }
+.german {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ }
+.viki {
+ width: 100%;
  }
 .a-click {
  padding: calc(2px + 0.1vw);
