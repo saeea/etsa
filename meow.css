@@ -8,6 +8,10 @@
 
 /* baza */
 
+a {
+ text-decoration: none;
+ color: inherit;
+ }
 body {
  font-size: 28px;
  width: 100%;
@@ -54,6 +58,7 @@ body {
 
 
 /*borders */
+
 .border-br {
  border-radius: 0 0 1em 0;
  }
@@ -140,7 +145,7 @@ body {
  margin: -10px;
  }
 .a-mar {
- margin: 5px;
+ margin: 3px;
  }
 .b-mar {
  margin: 10px;
