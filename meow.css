@@ -174,16 +174,10 @@ body {
  }
 .hr-topbar {
  position: absolute;
- border: 3px solid;
  top: 2.2em;
+ border: 3px solid;
  height: 0;
- }
-.bd {
- position: absolute;
- left: 25px;
- top: 120px;
- display: flex;
- flex-wrap: wrap;
+ white-space: nowrap;
  }
 .the-space {
  width: 100%;
@@ -194,7 +188,7 @@ body {
  padding-left: 15px;
  }
 .the-stick {
- position: fixed;
+ position: absolute;
  left: 7px;
  height: 100%;
  width: 0%;
@@ -204,6 +198,26 @@ body {
 
 /* wraps */
 
+.tabletka {
+ display: table;
+ }
+.bd {
+ position: absolute;
+ left: 25px;
+ top: 120px;
+ display: flex;
+ flex-wrap: nowrap;
+ }
+.lentbar {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ }
+.leftbar {
+ float: left;
+ display: flex;
+ flex-direction: column;
+ }
 .nowhite {
  white-space: nowrap;
  }
@@ -212,9 +226,12 @@ body {
  width: 100%;
  position: absolute;
  top: 0px;
+ display: flex;
+ flex-direction: column;
  }
 .horizontale {
  display: flex;
  flex-direction: row;
+ flex-wrap: nowrap;
  align-items: baseline;
  }
