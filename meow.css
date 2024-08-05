@@ -174,16 +174,16 @@ body {
  }
 .hr-topbar {
  position: absolute;
- top: 2.2em;
+ top: 2em;
  border: 3px solid;
  height: 0;
  white-space: nowrap;
  }
 .the-space {
  width: 100%;
- height: 25px;
+ height: 30px;
  position: absolute;
- top: 100px;
+ top: 85px;
  font-size: 15px;
  padding-left: 15px;
  }
@@ -204,7 +204,7 @@ body {
 .bd {
  position: absolute;
  left: 25px;
- top: 120px;
+ top: 110px;
  display: flex;
  flex-wrap: nowrap;
  }
@@ -222,7 +222,7 @@ body {
  white-space: nowrap;
  }
 .topbar {
- height: 90px;
+ height: 80px;
  width: 100%;
  position: absolute;
  top: 0px;
