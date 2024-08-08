@@ -30,7 +30,6 @@ body {
  position: sticky;
  margin-left: -35px;
  margin-right: 15px;
- border-radius: 0 1em 1em 0;
  }
 .left-btn {
  width: 7em;
@@ -55,14 +54,23 @@ body {
  animation-name: left-btn;
  height: 1.8em;
  }
+.pad {
+ display: flex;
+ flex-direction: column;
+ }
+ 
 
 
 /*borders */
-
 .border-br {
  border-radius: 0 0 1em 0;
  }
-
+.border-r {
+ border-radius: 0 1em 1em 0;
+ }
+.border-a {
+ border-radius: 1em;
+ }
 
 /* colours */
 
@@ -78,11 +86,17 @@ body {
 .ogurcyanic {
  background-image: linear-gradient(135deg, #88eedd, #88ddee, #88ddee);
  }
+.ogur-purlight {
+ background-color: #ccffdd;
+ }
 
 /* extensions */
 
 .wide100 {
  width: 100%;
+ }
+.wide80 {
+ width: 80%;
  }
 .high100 {
  height: 100%;
@@ -106,11 +120,17 @@ body {
 .f-sw {
  font-weight: 200;
  }
+.f-smw {
+ font-weigth: 300;
+ }
 .f-mw {
  font-weight: 500;
  }
 .f-lw {
  font-weight: 800;
+ }
+.f-xst {
+ font-size: 0.5em;
  }
 .f-st {
  font-size: 0.8em;
@@ -199,6 +219,9 @@ body {
  width: 0%;
  border: 3px solid black;
  }
+.minibr {
+ line-height: 7px;
+ }
 
 
 /* wraps */
@@ -216,7 +239,10 @@ body {
 .lentbar {
  display: flex;
  flex-wrap: wrap;
- flex-direction: column;
+ flex-direction: row;
+ align-items: flex-start;
+ align-content: flex-start;
+ justify-content: center;
  }
 .leftbar {
  float: left;
